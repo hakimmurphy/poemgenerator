@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+.container {
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E3840;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-wrapper {
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E3840;
+}
+
+.heading-word {
+    font-size: 10rem;
+    color: #FF0303;
+    font-family: 'Sono', sans-serif;
+    text-shadow: .5rem .5rem 1rem #F9DBBB;
+}
+
+.btn {
+    height: 5rem;
+    width: 10rem;
+    font-size: 1rem;
+    background-color: #FF0303;
+    color: #F9DBBB;
+    border-radius: 10%;
+    box-shadow: .5rem .5rem 1rem #F9DBBB;
+    font-family: 'Sono', sans-serif;
+}
+
+.hakim {
+    font-family: 'Sono', sans-serif;
+    color: #FF0303;
+    text-shadow: .5rem .5rem 1rem #F9DBBB;
+}
+
+.btn2 {
+    height: 5rem;
+    width: 10rem;
+    font-size: 1rem;
+    background-color: #FF0303;
+    color: #F9DBBB;
+    border-radius: 10%;
+    box-shadow: .5rem .5rem 1rem #F9DBBB;
+    font-family: 'Sono', sans-serif;
+}
+
+.randomH1 {
+    color: #FF0303;
+    font-family: 'Sono', sans-serif;
+    text-shadow: .5rem .5rem 1rem #F9DBBB;
+}
+
+.randomP {
+    color: #F9DBBB;
+    font-family: 'Sono', sans-serif;
+    text-shadow: .5rem .5rem 1rem #FF0303;
+}
+
+.randomImg {
+    height: 20rem;
+    width: 30rem;
+    border-radius: 2rem;
+    box-shadow: .5rem .5rem 1rem #FF0303;
+}
+
+@media(height<=1366px) {
+    .button-wrapper {
+        height: 40rem;
+    }
+
+    .heading-word {
+        font-size: 8rem;
+    }
+}
+
+@media(height<=1289) {
+    .button-wrapper {
+        height: 20rem;
+    }
+}
+
+@media(width<=1003px) {
+    .heading-word {
+        font-size: 7rem;
+    }
+}
+
+@media(width<=902) {
+    .heading-word {
+        font-size: 5rem;
+    }
+}
+
+@media(width<=807px) {
+    .heading-word {
+        font-size: 4rem;
+        text-align: center;
+    }
+}
+
+@media(width<=610px) {
+    .heading-word {
+        font-size: 4rem;
+    }
+}
+
+@media(width<=568px) {
+    .randomH1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+@media(width<=482px) {
+    .randomImg {
+        width: 25rem;
+    }
+
+    .randomH1 {
+        font-size: 1.5rem;
+    }
+
+    .randomP {
+        text-align: center;
+    }
+}
+
+@media(width<=463px) {
+    .heading-word {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .randomImg {
+        width: 20rem;
+    }
+
+    .randomH1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media(width<=400px) {
+    .heading-word {
+        font-size: 2rem;
+    }
+}
+
+@media(width<=390px) {
+    .heading-word {
+        font-size: 1rem;
+    }
+
+    .randomH1 {
+        font-size: 1rem;
+    }
+
+    .randomImg {
+        width: 15rem;
+    }
+
+    .randomP {
+        font-size: .7rem;
+    }
+}
