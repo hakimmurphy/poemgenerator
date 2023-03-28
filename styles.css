@@ -127,6 +127,18 @@
         font-size: 2rem;
         text-align: center;
     }
+
+    .randomImg {
+        width: 25rem;
+    }
+
+    .randomH1 {
+        font-size: 1.5rem;
+    }
+
+    .randomP {
+        text-align: center;
+    }
 }
 
 @media(width<=482px) {
