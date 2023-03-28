@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
 
-html,
-body {
-    height: 100vh;
-}
 
 .container {
     height: 50rem;
@@ -122,7 +118,7 @@ body {
 }
 
 
-@media(max-width<=660px) and (max-height<=844px) {
+@media screen and (max-width<=660px) and (max-height<=844px) {
     .randomH1 {
         font-size: 2rem;
         text-align: center;
