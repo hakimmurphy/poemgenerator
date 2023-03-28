@@ -116,13 +116,8 @@
     }
 }
 
-@media(width<=610px) {
-    .heading-word {
-        font-size: 4rem;
-    }
-}
 
-@media(width<=568px) {
+@media(width<=660px) {
     .randomH1 {
         font-size: 2rem;
         text-align: center;
